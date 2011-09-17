@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2161F2D614248D8E0081F15B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2161F2D514248D8E0081F15B /* Foundation.framework */; };
+		2161F2DC14248D8E0081F15B /* MMLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 2161F2DB14248D8E0081F15B /* MMLib.m */; };
+		2161F2E414248D8E0081F15B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2161F2E314248D8E0081F15B /* SenTestingKit.framework */; };
+		2161F2E614248D8E0081F15B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2161F2E514248D8E0081F15B /* UIKit.framework */; };
+		2161F2E714248D8E0081F15B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2161F2D514248D8E0081F15B /* Foundation.framework */; };
+		2161F2E914248D8E0081F15B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2161F2E814248D8E0081F15B /* CoreGraphics.framework */; };
+		2161F2EC14248D8E0081F15B /* libMMLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2161F2D214248D8E0081F15B /* libMMLib.a */; };
+		2161F2F214248D8E0081F15B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2161F2F014248D8E0081F15B /* InfoPlist.strings */; };
+		2161F2F414248D8E0081F15B /* MMLibTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 2161F2F314248D8E0081F15B /* MMLibTests.h */; };
+		2161F2F614248D8E0081F15B /* MMLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2161F2F514248D8E0081F15B /* MMLibTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2161F2EA14248D8E0081F15B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2161F2C914248D8E0081F15B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2161F2D114248D8E0081F15B;
+			remoteInfo = MMLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2161F2D214248D8E0081F15B /* libMMLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMMLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2161F2D514248D8E0081F15B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2161F2D914248D8E0081F15B /* MMLib-Prefix.pch */ = {isa = PBXFileReference; path = "MMLib-Prefix.pch"; sourceTree = "<group>"; };
+		2161F2DA14248D8E0081F15B /* MMLib.h */ = {isa = PBXFileReference; path = MMLib.h; sourceTree = "<group>"; };
+		2161F2DB14248D8E0081F15B /* MMLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMLib.m; sourceTree = "<group>"; };
+		2161F2E214248D8E0081F15B /* MMLibTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMLibTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2161F2E314248D8E0081F15B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2161F2E514248D8E0081F15B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2161F2E814248D8E0081F15B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		2161F2EF14248D8E0081F15B /* MMLibTests-Info.plist */ = {isa = PBXFileReference; path = "MMLibTests-Info.plist"; sourceTree = "<group>"; };
+		2161F2F114248D8E0081F15B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2161F2F314248D8E0081F15B /* MMLibTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMLibTests.h; sourceTree = "<group>"; };
+		2161F2F514248D8E0081F15B /* MMLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMLibTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2161F2CF14248D8E0081F15B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2161F2D614248D8E0081F15B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2161F2DE14248D8E0081F15B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2161F2E414248D8E0081F15B /* SenTestingKit.framework in Frameworks */,
+				2161F2E614248D8E0081F15B /* UIKit.framework in Frameworks */,
+				2161F2E714248D8E0081F15B /* Foundation.framework in Frameworks */,
+				2161F2E914248D8E0081F15B /* CoreGraphics.framework in Frameworks */,
+				2161F2EC14248D8E0081F15B /* libMMLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2161F2C714248D8E0081F15B = {
+			isa = PBXGroup;
+			children = (
+				2161F2D714248D8E0081F15B /* MMLib */,
+				2161F2ED14248D8E0081F15B /* MMLibTests */,
+				2161F2D414248D8E0081F15B /* Frameworks */,
+				2161F2D314248D8E0081F15B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2161F2D314248D8E0081F15B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2161F2D214248D8E0081F15B /* libMMLib.a */,
+				2161F2E214248D8E0081F15B /* MMLibTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2161F2D414248D8E0081F15B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2161F2D514248D8E0081F15B /* Foundation.framework */,
+				2161F2E314248D8E0081F15B /* SenTestingKit.framework */,
+				2161F2E514248D8E0081F15B /* UIKit.framework */,
+				2161F2E814248D8E0081F15B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2161F2D714248D8E0081F15B /* MMLib */ = {
+			isa = PBXGroup;
+			children = (
+				2161F2DA14248D8E0081F15B /* MMLib.h */,
+				2161F2DB14248D8E0081F15B /* MMLib.m */,
+				2161F2D814248D8E0081F15B /* Supporting Files */,
+			);
+			path = MMLib;
+			sourceTree = "<group>";
+		};
+		2161F2D814248D8E0081F15B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2161F2D914248D8E0081F15B /* MMLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2161F2ED14248D8E0081F15B /* MMLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				2161F2F314248D8E0081F15B /* MMLibTests.h */,
+				2161F2F514248D8E0081F15B /* MMLibTests.m */,
+				2161F2EE14248D8E0081F15B /* Supporting Files */,
+			);
+			path = MMLibTests;
+			sourceTree = "<group>";
+		};
+		2161F2EE14248D8E0081F15B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2161F2EF14248D8E0081F15B /* MMLibTests-Info.plist */,
+				2161F2F014248D8E0081F15B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2161F2D014248D8E0081F15B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2161F2D114248D8E0081F15B /* MMLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2161F2F914248D8E0081F15B /* Build configuration list for PBXNativeTarget "MMLib" */;
+			buildPhases = (
+				2161F2CE14248D8E0081F15B /* Sources */,
+				2161F2CF14248D8E0081F15B /* Frameworks */,
+				2161F2D014248D8E0081F15B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMLib;
+			productName = MMLib;
+			productReference = 2161F2D214248D8E0081F15B /* libMMLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2161F2E114248D8E0081F15B /* MMLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2161F2FC14248D8E0081F15B /* Build configuration list for PBXNativeTarget "MMLibTests" */;
+			buildPhases = (
+				2161F2DD14248D8E0081F15B /* Sources */,
+				2161F2DE14248D8E0081F15B /* Frameworks */,
+				2161F2DF14248D8E0081F15B /* Resources */,
+				2161F2E014248D8E0081F15B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2161F2EB14248D8E0081F15B /* PBXTargetDependency */,
+			);
+			name = MMLibTests;
+			productName = MMLibTests;
+			productReference = 2161F2E214248D8E0081F15B /* MMLibTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2161F2C914248D8E0081F15B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = mmasashi.jp;
+			};
+			buildConfigurationList = 2161F2CC14248D8E0081F15B /* Build configuration list for PBXProject "MMLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2161F2C714248D8E0081F15B;
+			productRefGroup = 2161F2D314248D8E0081F15B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2161F2D114248D8E0081F15B /* MMLib */,
+				2161F2E114248D8E0081F15B /* MMLibTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2161F2DF14248D8E0081F15B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2161F2F214248D8E0081F15B /* InfoPlist.strings in Resources */,
+				2161F2F414248D8E0081F15B /* MMLibTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2161F2E014248D8E0081F15B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2161F2CE14248D8E0081F15B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2161F2DC14248D8E0081F15B /* MMLib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2161F2DD14248D8E0081F15B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2161F2F614248D8E0081F15B /* MMLibTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2161F2EB14248D8E0081F15B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2161F2D114248D8E0081F15B /* MMLib */;
+			targetProxy = 2161F2EA14248D8E0081F15B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2161F2F014248D8E0081F15B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2161F2F114248D8E0081F15B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2161F2F714248D8E0081F15B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2161F2F814248D8E0081F15B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2161F2FA14248D8E0081F15B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MMLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MMLib/MMLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2161F2FB14248D8E0081F15B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MMLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MMLib/MMLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2161F2FD14248D8E0081F15B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MMLib/MMLib-Prefix.pch";
+				INFOPLIST_FILE = "MMLibTests/MMLibTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		2161F2FE14248D8E0081F15B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MMLib/MMLib-Prefix.pch";
+				INFOPLIST_FILE = "MMLibTests/MMLibTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2161F2CC14248D8E0081F15B /* Build configuration list for PBXProject "MMLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2161F2F714248D8E0081F15B /* Debug */,
+				2161F2F814248D8E0081F15B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2161F2F914248D8E0081F15B /* Build configuration list for PBXNativeTarget "MMLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2161F2FA14248D8E0081F15B /* Debug */,
+				2161F2FB14248D8E0081F15B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2161F2FC14248D8E0081F15B /* Build configuration list for PBXNativeTarget "MMLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2161F2FD14248D8E0081F15B /* Debug */,
+				2161F2FE14248D8E0081F15B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2161F2C914248D8E0081F15B /* Project object */;
+}
