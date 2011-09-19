@@ -1,13 +1,13 @@
 //
-//  MMLib.h
+//  NSData+MM.h
 //  MMLib
 //
-//  Created by Miyazaki Masashi on 11/09/17.
+//  Created by Miyazaki Masashi on 11/09/19.
 //  Copyright 2011 mmasashi.jp. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@interface MMLib : NSObject
+@interface NSData (MM)
 
 @end
